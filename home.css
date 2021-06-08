@@ -5,12 +5,14 @@ body {
     margin: 0px;
     padding: 0px;
     background: url('bg.jpg');
-    height: 4000px;
+    background-size: 2000px 1800px;
+    background-repeat: no-repeat;
 }
 header{
-  background-color: blue;
+  /*background-color: blue;*/
   height: 150px;
-  margin-top: -27px;
+  margin-top: -29px;
+  /*border-bottom: 2px solid wheat;*/
 }
 .left{
   display: inline-block;
@@ -21,7 +23,7 @@ header{
 }
 .left img{
   width: 100px;
-  /*filter: invert(100%); use this when you are logon is in opposite colour of your background image*/
+  /*filter: invert(100%); use this when you are background is in opposite colour of your background image*/
 }
 .left div{
   line-height: 19px;
@@ -47,7 +49,7 @@ header{
 }
 .navbar li{
   display: inline-block;
-  font-size: 28px;
+  font-size: 26px;
 }
 .navbar li a{
   color: white;
@@ -76,8 +78,11 @@ header{
   border: 2px solid white;
   margin: 106px auto;
   padding: 75px;
-  width: 33%;
+  width: 50%;
   border-radius: 28px;
+  /*background: url('gym2.png');
+  background-size: 700px 800px;
+  background-repeat: no-repeat;*/
 }
 .form-group input{
   font-family: 'Baloo 2', cursive;
